@@ -1,5 +1,6 @@
 Spotify Checkstyle Configuration
 ================================
+[![Maven Central](https://img.shields.io/maven-central/v/com.spotify/spotify-checkstyle-config.svg)](https://search.maven.org/#search%7Cga%7C1%7Cg%3A%22com.spotify%22%20spotify-checkstyle-config)
 [![License](https://img.shields.io/github/license/spotify/spotify-checkstyle-repo.svg)](LICENSE.txt)
 
 
@@ -47,9 +48,9 @@ To use it, configure your maven-checkstyle-plugin like so:
    </plugin>
 ```
 
-Internally, we have the above configuration in the <pluginManagement/> section of a 
+Internally, we have the above configuration in the `<pluginManagement/>` section of a 
 company-wide parent pom, meaning that projects only need to specify the below in their
-<build><plugins> section:
+`<build><plugins>` section:
 
 ```
    <plugin>
