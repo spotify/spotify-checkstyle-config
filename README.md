@@ -17,7 +17,7 @@ To use it, configure your maven-checkstyle-plugin like so:
        <dependency>
          <groupId>com.spotify.checkstyle</groupId>
          <artifactId>spotify-checkstyle-config</artifactId>
-         <version>1.0.0</version>
+         <version>THEVERSIONYOUWANT</version>
        </dependency>
        <dependency>
          <groupId>com.puppycrawl.tools</groupId>
@@ -47,6 +47,9 @@ To use it, configure your maven-checkstyle-plugin like so:
      </executions>
    </plugin>
 ```
+
+See the [maven-checkstyle-plugin docs](https://maven.apache.org/plugins/maven-checkstyle-plugin/) 
+for more information about what the configuration settings mean.
 
 Internally, we have the above configuration in the `<pluginManagement/>` section of a 
 company-wide parent pom, meaning that projects only need to specify the below in their
