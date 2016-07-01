@@ -11,7 +11,7 @@
   </properties>
 
   <scm>
-    <url>https://github.com/spotify/apollo</url>
+    <url>https://github.com/spotify/spotify-checkstyle-config</url>
     <connection>scm:git:git@github.com:spotify/spotify-checkstyle-config.git</connection>
     <developerConnection>scm:git:git@github.com:spotify/spotify-checkstyle-config.git</developerConnection>
     <tag>HEAD</tag>
