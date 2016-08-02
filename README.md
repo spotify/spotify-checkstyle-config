@@ -1,6 +1,6 @@
 Spotify Checkstyle Configuration
 ================================
-[![Maven Central](https://img.shields.io/maven-central/v/com.spotify/spotify-checkstyle-config.svg)](https://search.maven.org/#search%7Cga%7C1%7Cg%3A%22com.spotify%22%20spotify-checkstyle-config)
+[![Maven Central](https://img.shields.io/maven-central/v/com.spotify.checkstyle/spotify-checkstyle-config.svg)](https://search.maven.org/#search%7Cga%7C1%7Cg%3A%22com.spotify.checkstyle%22%20spotify-checkstyle-config)
 [![License](https://img.shields.io/github/license/spotify/spotify-checkstyle-config.svg)](LICENSE.txt)
 
 
