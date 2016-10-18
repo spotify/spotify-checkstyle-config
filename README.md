@@ -74,6 +74,10 @@ that for multi-module projects, it's probably a good idea to use something
 like [this solution](http://stackoverflow.com/a/19690484/1659929) to share
 the configuration among each sub-module.
 
+# IDEA support
+
+There is a [configuration file for IntelliJ IDEA](src/main/idea/spotify-checkstyle-idea.xml) that you can import into your project.
+
 # Code of conduct
 This project adheres to the [Open Code of Conduct][code-of-conduct]. By participating, you are expected to honor this code.
 
