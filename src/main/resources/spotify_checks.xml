@@ -177,7 +177,9 @@
             <property name="caseSensitive" value="true"/>
             <property name="separated" value="true"/>
             <property name="sortStaticImportsAlphabetically" value="true"/>
-        </module> 
+        </module>
+        <module name="RedundantImport"/>
+        <module name="UnusedImports"/>
         <module name="MethodParamPad"/>
         <module name="OperatorWrap">
             <property name="option" value="NL"/>
