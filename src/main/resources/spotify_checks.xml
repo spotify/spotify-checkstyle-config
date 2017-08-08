@@ -223,20 +223,20 @@
         </module>
         <module name="CommentsIndentation"/>
 
-	<!-- Required by SuppressionCommentFilter below -->        
-	<module name="FileContentsHolder"/>        
-        
-	<!-- Required by SuppressWarningsFilter below -->        
-	<module name="SuppressWarningsHolder"/>        
+        <!-- Required by SuppressionCommentFilter below -->
+        <module name="FileContentsHolder"/>
+
+        <!-- Required by SuppressWarningsFilter below -->
+        <module name="SuppressWarningsHolder"/>
+
+        <!-- Allow turning checks off in the code -->
+        <!-- See http://checkstyle.sourceforge.net/config.html#SuppressionCommentFilter -->
+        <module name="SuppressionCommentFilter"/>
     </module>
 
-    <!-- Allow turning checks off in the code -->        
-    <!-- See http://checkstyle.sourceforge.net/config.html#SuppressionCommentFilter -->        
-    <module name="SuppressionCommentFilter"/>        
-    
-    <!-- Allow turning checks off in the code using @SuppressWarnings annotation -->        
-    <!-- See http://checkstyle.sourceforge.net/config_filters.html#SuppressWarningsFilter -->        
-    <module name="SuppressWarningsFilter"/>        
+    <!-- Allow turning checks off in the code using @SuppressWarnings annotation -->
+    <!-- See http://checkstyle.sourceforge.net/config_filters.html#SuppressWarningsFilter -->
+    <module name="SuppressWarningsFilter"/>
 
     <!-- Location is overridable in a project. For mechanism, see -->
     <!-- http://checkstyle.sourceforge.net/config_filters.html#SuppressionFilter -->
