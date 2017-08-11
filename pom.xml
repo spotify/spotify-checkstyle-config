@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.spotify.checkstyle</groupId>
   <artifactId>spotify-checkstyle-config</artifactId>
-  <version>1.0.5</version>
+  <version>1.0.6-SNAPSHOT</version>
   <name>Spotify Checkstyle Config</name>
   <description>Checkstyle configuration corresponding to Spotify's coding conventions.</description>
   <url>https://github.com/spotify/spotify-checkstyle-config</url>
@@ -17,7 +17,7 @@
     <url>https://github.com/spotify/spotify-checkstyle-config</url>
     <connection>scm:git:git@github.com:spotify/spotify-checkstyle-config.git</connection>
     <developerConnection>scm:git:git@github.com:spotify/spotify-checkstyle-config.git</developerConnection>
-    <tag>v1.0.5</tag>
+    <tag>HEAD</tag>
   </scm>
 
   <developers>
