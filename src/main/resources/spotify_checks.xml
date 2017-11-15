@@ -248,11 +248,11 @@
 
         <!-- Required by SuppressWarningsFilter below -->
         <module name="SuppressWarningsHolder"/>
-
-        <!-- Allow turning checks off in the code -->
-        <!-- See http://checkstyle.sourceforge.net/config.html#SuppressionCommentFilter -->
-        <module name="SuppressionCommentFilter"/>
     </module>
+
+    <!-- Allow turning checks off in the code -->
+    <!-- See http://checkstyle.sourceforge.net/config.html#SuppressionCommentFilter -->
+    <module name="SuppressionCommentFilter"/>
 
     <!-- Allow turning checks off in the code using @SuppressWarnings annotation -->
     <!-- See http://checkstyle.sourceforge.net/config_filters.html#SuppressWarningsFilter -->
