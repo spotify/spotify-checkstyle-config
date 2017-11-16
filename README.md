@@ -17,23 +17,21 @@ To use it, configure your maven-checkstyle-plugin like so:
        <dependency>
          <groupId>com.spotify.checkstyle</groupId>
          <artifactId>spotify-checkstyle-config</artifactId>
-         <version>THEVERSIONYOUWANT</version>
+         <version>LATEST-VERSION</version>
        </dependency>
        <dependency>
          <groupId>com.puppycrawl.tools</groupId>
          <artifactId>checkstyle</artifactId>
-         <version>6.19</version>
+         <version>8.4</version>
        </dependency>
      </dependencies>
      <configuration>
        <configLocation>spotify_checks.xml</configLocation>
-       <!-- The things above this line are required, the rest is 'bonus' -->
-       <!------------------------------------------------------------------>
+       
+       <!-- The following parameters are optional: -->
        <consoleOutput>true</consoleOutput>
-       <!-- Remove or switch to false to keep building even with checkstyle errors -->
        <failOnViolation>true</failOnViolation>
        <logViolationsToConsole>true</logViolationsToConsole>
-       <!-- change to 'warning' to be more strict about following checkstyle conventions -->
        <violationSeverity>error</violationSeverity>
      </configuration>
      <executions>
@@ -48,8 +46,8 @@ To use it, configure your maven-checkstyle-plugin like so:
    </plugin>
 ```
 
-See the [maven-checkstyle-plugin docs](https://maven.apache.org/plugins/maven-checkstyle-plugin/) 
-for more information about what the configuration settings mean.
+See the [maven-checkstyle-plugin docs](https://maven.apache.org/plugins/maven-checkstyle-plugin/check-mojo.html) 
+for more information about what the configuration parameters mean.
 
 Internally, we have the above configuration in the `<pluginManagement/>` section of a 
 company-wide parent pom, meaning that projects only need to specify the below in their
