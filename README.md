@@ -22,7 +22,7 @@ To use it, configure your maven-checkstyle-plugin like so:
        <dependency>
          <groupId>com.puppycrawl.tools</groupId>
          <artifactId>checkstyle</artifactId>
-         <version>8.4</version>
+         <version>8.24</version>
        </dependency>
      </dependencies>
      <configuration>
